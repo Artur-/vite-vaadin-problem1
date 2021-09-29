@@ -15,8 +15,15 @@
     "build": "tsc && vite build"
   },
   "dependencies": {
+    "@polymer/iron-list": "^3.1.0",
     "@vaadin/vaadin-button": "^21.0.2",
-    "lit-element": "^2.4.0"
+    "@vaadin/vaadin-grid": "^21.0.2",
+    "@vaadin/vaadin-grid-pro": "^21.0.2",
+    "@vaadin/vaadin-item": "^21.0.2",
+    "@vaadin/vaadin-list-box": "^21.0.2",
+    "@vaadin/vaadin-login": "^21.0.2",
+    "@vaadin/vaadin-virtual-list": "^21.0.2",
+    "lit": "^2.0.0"
   },
   "devDependencies": {
     "typescript": "^4.3.2",

@@ -1,22 +1,29 @@
 {
   "compilerOptions": {
-    "module": "esnext",
-    "lib": ["es2017", "dom", "dom.iterable"],
-    "declaration": true,
-    "emitDeclarationOnly": true,
-    "outDir": "./types",
-    "rootDir": "./src",
-    "strict": true,
-    "noUnusedLocals": true,
-    "noUnusedParameters": true,
-    "noImplicitReturns": true,
-    "noFallthroughCasesInSwitch": true,
+    "sourceMap": true,
+    "inlineSources": true,
+    "module": "esNext",
+    "target": "es2019",
     "moduleResolution": "node",
-    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitReturns": true,
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
     "experimentalDecorators": true,
-    "forceConsistentCasingInFileNames": true,
-    "useDefineForClassFields": false
+    "baseUrl": "frontend",
+    "paths": {
+      "Frontend/*": [
+        "*"
+      ]
+    }
   },
-  "include": ["src/**/*.ts"],
+  "include": [
+    "frontend/**/*.ts",
+    "frontend/index.js",
+    "types.d.ts"
+  ],
   "exclude": []
 }
