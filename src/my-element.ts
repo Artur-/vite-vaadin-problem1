@@ -1,4 +1,6 @@
 import { LitElement, html, customElement, property, css } from 'lit-element'
+import '@polymer/iron-list/iron-list.js';
+import '@vaadin/vaadin-button';
 
 /**
  * An example element.
